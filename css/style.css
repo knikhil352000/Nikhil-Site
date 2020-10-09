@@ -344,14 +344,34 @@ navbar::before{
     z-index: -1;
 
 }
-
 ::placeholder{
     font-size: 0.85rem;
 }
-
-
 /***********************************Customer Us End**********************************/
+/***********************************Newsletter Start**********************************/
+.newsletter{
+    width: 100%;
+    height: auto;
+    margin: 80px auto;
 
+}
+.news-input{
+    border-radius: 100px 0 0 100px !important;
+    min-width: 150px;
+    min-height: 45px;
+   
+}
+
+.input-group-text{
+    border-radius: 0 100px 100px 0 !important;
+    min-width: 120px;
+    min-height: 45px;
+    background: #16c9f6;
+}
+
+/***********************************Newsletter End**********************************/
+/* **********************************Footer Start*********************************** */
+/* **********************************Footer Start*********************************** */
 
 
 
