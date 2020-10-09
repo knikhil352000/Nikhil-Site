@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -371,8 +374,81 @@ navbar::before{
 
 /***********************************Newsletter End**********************************/
 /* **********************************Footer Start*********************************** */
-/* **********************************Footer Start*********************************** */
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #00ABFF;
+}
 
+.footersection a{
+    color: #fff;
+
+}
+.footersection li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footersection h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem !important;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+.footersection p{
+    color: white;
+}
+
+#myBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 40;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding:10px;
+    border-radius: 10px;
+}
+#myBtn:hover{
+    background: #606060;
+}
+/* **********************************Footer End*********************************** */
+/*********************************media queries**************************/
+@media (max-width:768px){
+    .nav-item{
+        text-align: center;
+    }
+    .pricing,.happyclients,.contactus{
+        height: auto;
+        margin-top: 50px;
+    }
+    .card-second{
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+    .contactus p{
+        padding: 0 10px;
+    }
+     .footerdiv:nth-child(2){
+        text-align: left !important;
+    }
+    .footerdiv{
+        margin: 0 0 30px 0;
+    }
+
+    .center-div{
+        margin-top: 25px;
+    }
+    #myBtn{
+        position: relative;
+        left: 10px;
+    }
+}
 
 
 
